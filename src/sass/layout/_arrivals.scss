@@ -1,0 +1,15 @@
+.new-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, .6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(20em);
+  transition: transform 1s;
+}
+
+.new:hover .new-overlay{
+  transform: translateY(0);
+}

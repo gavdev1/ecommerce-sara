@@ -1,0 +1,12 @@
+@use "../custom" as *;
+
+.title{
+  letter-spacing: 15px !important;
+}
+
+
+@media(min-width:768px){
+  .offcanvas{
+    box-shadow: unset !important;
+  }
+}

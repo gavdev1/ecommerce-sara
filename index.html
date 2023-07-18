@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@500;800&display=swap" rel="stylesheet">
+        <!-- ===== BOXICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/style.min.css">        
+        <title>Ecommerce</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">SARA</a>
+            <div class="offcanvas offcanvas-end shadow-lg" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav w-100 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link px-2 my-4 my-md-0 text-primary" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-2 my-4 my-md-0 text-dark" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-2 my-4 my-md-0 text-dark" href="#">New</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-2 my-4 my-md-0 text-dark">Suscribed</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-flex gap-4">
+              <a class="nav-link text-dark fs-2"><i class='bx bx-cart'></i></a>
+              <button class="navbar-toggler border-0" type="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <header class="my-5 py-5 container-xl">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h1 class="display-1 title text-uppercase">new <br> <span class="fs-1 mb-5">arrivals</span></h1>
+                <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">go shopping</a>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="assets/img/home.png" alt="home" />
+              </div>
+            </div>
+        </header>
+
+        <main>
+            <!--===== COLLECTION =====-->
+            <section class="container-xl">
+                <h2 class="text-center text-uppercase mb-5">Collection</h2>
+                <div class="row justify-content-center gap-4">
+                  <div class="col-11 col-md d-flex align-items-center bg-secondary my-5 my-md-0">
+                    <div class="col">
+                      <img class="img-fluid" src="assets/img/backpackMan.png" alt="men collection" />
+                    </div>
+                      <div class="col">
+                        <h3 class="text-info text-uppercase">Men</h3>
+                        <h4 class="fs-1 text-uppercase">backpack</h4>
+                        <p class="text-info mt-5">View collection</p>
+                      </div>
+                    </div>
+                    <div class="col-11 col-md d-flex align-items-center bg-secondary">
+                      <div class="col">
+                        <img class="img-fluid" src="assets/img/backpackWoman.png" alt="men collection" />
+                      </div>
+                      <div class="col">
+                        <h3 class="text-info text-uppercase">women</h3>
+                        <h4 class="fs-1 text-uppercase">backpack</h4>
+                        <p class="text-info mt-5">View collection</p>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <!--===== FEATURED PRODUCTS =====-->
+            <section class="container-xl" id="featured">
+                <h2 class="text-center text-uppercase my-5">Feactures products</h2>
+                <div class="row gap-4 justify-content-center">
+                  <div class="col-11 col-md">
+                      <div class="bg-secondary d-flex justify-content-center align-items-center p-4 position-relative">
+                        <img class="img-fluid" src="assets/img/feature1.png" alt="feature" />
+                        <p class="p-2 bg-primary text-white position-absolute start-0 top-0">NEW</p>
+                      </div>
+                      <div class="mt-4 text-center text-uppercase">
+                        <h3 class="fs-6">headphone one black</h3>
+                        <p class="text-info">$29.00</p>
+                      </div>
+                  </div>
+                    <div class="col-11 col-md">
+                      <div class="bg-secondary d-flex justify-content-center align-items-center p-4 position-relative">
+                        <img class="img-fluid" src="assets/img/feature2.png" alt="feature" />
+                        <p class="p-2 bg-primary text-white position-absolute start-0 top-0">NEW</p>
+                      </div>
+                      <div class="mt-4 text-center text-uppercase">
+                        <h3 class="fs-6">speaker beats pill</h3>
+                        <p class="text-info">$199.00</p>
+                      </div>
+                    </div>
+                      <div class="col-11 col-md">
+                        <div class="bg-secondary d-flex justify-content-center align-items-center p-4 position-relative">
+                          <img class="img-fluid" src="assets/img/feature3.png" alt="feature" />
+                          <p class="p-2 bg-primary text-white position-absolute start-0 top-0">NEW</p>
+                        </div>
+                        <div class="mt-4 text-center text-uppercase">
+                          <h3 class="fs-6">apple air pods</h3>
+                          <p class="text-info">$122.00</p>
+                        </div>
+                      </div>
+                        <div class="col-11 col-md">
+                          <div class="bg-secondary d-flex justify-content-center align-items-center p-4 position-relative">
+                            <img class="img-fluid" src="assets/img/feature4.png" alt="feature" />
+                            <p class="p-2 bg-primary text-white position-absolute start-0 top-0">NEW</p>
+                          </div>
+                          <div class="mt-4 text-center text-uppercase">
+                            <h3 class="fs-6">smartwatch f9 negro</h3>
+                            <p class="text-info">$99.00</p>
+                          </div>
+                        </div>
+                </div>
+            </section>
+            
+            <section class="d-flex flex-column justify-content-center align-items-center text-uppercase text-center text-white container-fluid offer">
+              <h2 class="display-2 my-4">special offer</h2>
+              <p>special offerts discounts for women this week only</p>
+              <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">shop now</a>
+            </section>
+
+            <!--===== ARRIVALS =====-->
+            <section class="container-xl">
+                <h2 class="text-center text-uppercase my-5">new arrivals</h2>
+                <div class="row gap-4 justify-content-center">
+                  <div class="col-11 col-md bg-secondary position-relative d-flex justify-content-center align-items-center overflow-hidden new">
+                    <img src="assets/img/new1.png" alt="new">
+                    <div class="new-overlay">
+                      <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">view product</a>
+                    </div>
+                  </div>
+                  <div class="col-11 col-md bg-secondary position-relative d-flex justify-content-center align-items-center overflow-hidden new">
+                    <img src="assets/img/new2.png" alt="new">
+                    <div class="new-overlay">
+                      <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">view product</a>
+                    </div>
+                  </div>
+                  <div class="col-11 col-md bg-secondary position-relative d-flex justify-content-center align-items-center overflow-hidden new">
+                    <img src="assets/img/new3.png" alt="new">
+                    <div class="new-overlay">
+                      <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">view product</a>
+                    </div>
+                  </div>
+                  <div class="row my-4 gap-4 justify-content-center">
+                    <div class="col-11 col-md bg-secondary position-relative d-flex justify-content-center align-items-center overflow-hidden new">
+                      <img src="assets/img/new4.png" alt="new">
+                      <div class="new-overlay">
+                        <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">view product</a>
+                      </div>
+                    </div>
+                    <div class="col-11 col-md bg-secondary position-relative d-flex justify-content-center align-items-center overflow-hidden new">
+                      <img src="assets/img/new5.png" alt="new">
+                      <div class="new-overlay">
+                        <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">view product</a>
+                      </div>
+                    </div>
+                    <div class="col-11 col-md bg-secondary position-relative d-flex justify-content-center align-items-center overflow-hidden new">
+                      <img src="assets/img/new6.png" alt="new">
+                      <div class="new-overlay">
+                        <a class="btn btn-primary p-3 text-uppercase fw-bold text-white rounded-0 my-5" href="#">view product</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!--===== NEWSLETTER =====-->
+            <section class="container-xl py-5 my-5" id="suscribe">
+                <h2 class="text-center text-uppercase mt-5">our Newsletter</h2>
+                <p class="text-center">Promotion new products and sales. Directly to your</p>
+                <form class="w-75 mx-auto">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control rounded-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary text-white text-primary p-3 rounded-0" type="button" id="button-addon2">Suscribe</button>
+                    </div>
+                </form>
+            </section>
+
+            <!--===== SPONSORS =====-->
+            <section class="sponsors container-xl">
+                <div class="row text-center">
+                  <div class="col-6 col-md-3">
+                    <img class="logo" src="assets/img/logo1.png" alt="logo">
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <img class="logo" src="assets/img/logo2.png" alt="logo">
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <img class="logo" src="assets/img/logo3.png" alt="logo">
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <img class="logo" src="assets/img/logo4.png" alt="logo">
+                  </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="bg-dark">
+          <div class="container-xl mt-5 py-5">
+            <div class="row gap-4 my-5 py-5">
+              <div class="col-6 col-md text-white">
+                <h3 class="text-uppercase">Sara</h3>
+                <p>Products store</p>
+                <div class="d-flex gap-4">
+                  <img class="w-50" src="assets/img/footerstore1.png" alt="store" />
+                  <img class="w-50" src="assets/img/footerstore2.png" alt="store" />
+                </div>
+              </div>
+              <div class="col-5 col-md text-white d-flex flex-column">
+                <h3 class="text-uppercase">explore</h3>
+                <a class="text-info">Home</a>
+                <a class="text-info">Featured</a>
+                <a class="text-info">New</a>
+                <a class="text-info">Suscribe</a>
+              </div>
+              <div class="col-6 col-md text-white d-flex flex-column">
+                <h3 class="text-uppercase">our services</h3>
+                <a class="text-info">Pricing</a>
+                <a class="text-info">Free Shipping</a>
+                <a class="text-info">Gift Cards</a>
+              </div>
+              <div class="col-5 col-md text-white">
+                <h3 class="text-uppercase">follow</h3>
+                <div class="d-flex">
+                  <i class='bx fs-2 bxl-facebook-square col'></i>
+                  <i class='bx fs-2 bxl-instagram-alt col'></i>
+                  <i class='bx fs-2 bxl-twitter col'></i>
+                </div>
+              </div>
+            </div>
+            <div class="py-5 border-1 border-white border-top text-center">
+              <p class="text-info">&copy;2023 todos los derechos reservados</p>
+            </div>
+          </div>
+        </footer>
+
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
